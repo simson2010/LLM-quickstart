@@ -15,6 +15,15 @@
 - [Hugging Face Transformers](https://huggingface.co/docs/transformers/installation#install-with-conda)
 - [音频处理工具包 ffmpeg](https://phoenixnap.com/kb/install-ffmpeg-ubuntu)
 
+详细安装说明请参考[文档](docs/INSTALL.md)
+
+### 安装 Python 依赖包
+
+请使用 `requirements.txt` 文件进行 Python 依赖包安装：
+
+```shell
+pip install -r requirements.txt
+```
 
 ### 关于 GPU 驱动和 CUDA 版本
 
@@ -49,7 +58,6 @@ Mon Dec 18 12:10:47 2023
 |  No running processes found                                                           |
 +---------------------------------------------------------------------------------------+
 ```
-
 
 ### Jupyter Lab 后台启动配置
 
