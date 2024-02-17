@@ -161,10 +161,12 @@ cython_debug/
 
 # Customization
 
-nohup.out
-transformers/models/
-peft/models/
-peft/temp/
 homework/models/
 homework/wandb/
 mvenv
+
+nohup.out
+*/models/
+peft/temp/
+deepspeed/output_dir
+RLHF
